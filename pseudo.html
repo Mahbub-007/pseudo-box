@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: royalblue;
+        }
+
+        h1:hover {
+            color: aqua;
+            background-color: seagreen;
+            font-weight: 700;
+        }
+
+        .middle-class:focus {
+            color: coral;
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            background-color: cornflowerblue;
+        }
+
+        li:nth-child(2n) {
+            color: crimson;
+            background-color: antiquewhite;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: aqua;
+        }
+
+        h3::before {
+            content: 'Hello';
+            background-color: antiquewhite;
+        }
+
+        .Special::after {
+            content: 'gelo';
+            background-color: aquamarine;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input class="middle-class" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">google e jao</a>
+    <a href="https://www.w3schools.com/css/css_grid.asp">Never visited</a>
+    <a href="https://github.com/ProgrammingHero1"> ProgramingHero1</a>
+    <br>
+    <h3 class="Special">Middle Size Header-1</h3>
+    <h3>Middle Size Header-2</h3>
+    <h3 class="Special">Middle Size Header-3</h3>
+    <h3>Middle Size Header-4</h3>
+    <h3 class="Special">Middle Size Header-4</h3>
+    <h3>Middle Size Header-5</h3>
+    <h3 class="Special">Middle Size Header-6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>dlia</li>
+        <li>Kalia</li>
+        <li>Jalia</li>
+        <li>Calia</li>
+        <li>Fharaia</li>
+        <li>Falguni</li>
+        <li>Jannat</li>
+        <li>Fahi</li>
+        <li>Konika</li>
+        <li>Israt</li>
+    </ul>
+</body>
+
+</html>
